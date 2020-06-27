@@ -5,12 +5,13 @@ setup(
   version = '1.0',      
   license='MIT',        
   description = 'This package returns calctiplication of two integers.',   
-  url = 'https://github.com/YugantM/python_calc_module',   
-  download_url = 'https://github.com/YugantM/python_calc_module.git',  
+  url = 'https://github.com/majorx234/python-calc',   
+  download_url = 'https://github.com/YugantM/python-calc.git',  
   install_requires=[
-          'add',
-	  'mul'
-      ],  
+      'add',
+	    'mul'
+    ],  
+  scripts=['scripts/calc'],    
   keywords = ['add','multiplication', 'calculation'],  
   
   classifiers=[
