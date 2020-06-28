@@ -4,14 +4,12 @@ from mul import mul
 
 def calc(operation, a, b):
    if operation==0:
-      print("calc: add: %d" % add.add(a,b))
       return add.add(a,b)
    if operation==1:
-      print("calc: mul: %d" % mul.mul(a,b))
       return mul.mul(a,b)
 def main():
     if len(sys.argv) == 4:
-        calc(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3]))
+        printf(calc(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3])))
     else:
         print("ERROR:",str(len(sys.argv)-1)," arguments given instead of 3")
 
