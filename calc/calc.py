@@ -4,10 +4,10 @@ from mul import mul
 
 def calc(operation, a, b):
    if operation==0:
-      print(add.add(a,b))
+      print("calc: add: %d" % add.add(a,b))
       return add.add(a,b)
    if operation==1:
-      print(mul.mul(a,b))
+      print("calc: mul: %d" % mul.mul(a,b))
       return mul.mul(a,b)
 def main():
     if len(sys.argv) == 4:
