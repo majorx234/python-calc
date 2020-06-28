@@ -9,7 +9,7 @@ def calc(operation, a, b):
       return mul.mul(a,b)
 def main():
     if len(sys.argv) == 4:
-        printf(calc(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3])))
+        print(calc(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3])))
     else:
         print("ERROR:",str(len(sys.argv)-1)," arguments given instead of 3")
 
